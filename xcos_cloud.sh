@@ -22,9 +22,9 @@ sudo sed -i "s/.*HTTP_SERVER_HOST.*/HTTP_SERVER_HOST = '10.129.103.157'/" config
 pip3 install -r requirements.txt
 make
 
-sudo chown -Rc edx:edx /tmp/flask-caching-dir/
-sudo chown -Rc edx:edx /tmp/flask-sessiondir/
-sudo chown -Rc edx:edx /tmp/sessiondir/
-sudo chown -Rc edx:edx /tmp/xcos-on-cloud-logs/
+#sudo chown -Rc edx:edx /tmp/flask-caching-dir/
+#sudo chown -Rc edx:edx /tmp/flask-sessiondir/
+#sudo chown -Rc edx:edx /tmp/sessiondir/
+#sudo chown -Rc edx:edx /tmp/xcos-on-cloud-logs/
 
 python3 SendLog.py
